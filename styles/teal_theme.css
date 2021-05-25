@@ -1,0 +1,159 @@
+/* Color palette by Kay McKelly: https://coolors.co/eef5f6-e9ab1c-2f8899-046577-102a83 and https://coolors.co/2e3192-50a4af-038273-046577-383db9 */
+
+
+
+/***** General styling *****/
+body {
+  background-position: top;
+  background-repeat: no-repeat;
+  background-image: url("../images/banners/ellipses.svg");
+  background-size: cover;
+}
+
+#pageTop {
+  /* equivalent of d-flex */
+  display: -ms-flexbox !important;
+  display: flex !important;
+  /* equivalent of flex-column-reverse */
+  -ms-flex-direction: column-reverse !important;
+  flex-direction: column-reverse !important;
+}
+
+
+
+/***** Nav (in /includes/nav.php) *****/
+#main-nav-row {
+  background-color: #046577;
+  /* emulated fixed-top */
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 1030;
+}
+
+div.dropdown-menu {
+  background-color: #046577;
+  color: #FEFDFB;
+}
+
+a.dropdown-item {
+  color: #FEFDFB;
+}
+
+
+
+/***** Header (in /includes/nav.php) *****/
+/* stacks conf name atop dates & location */
+#titlesLogoDiv {
+  flex-direction: column;
+}
+
+@media (min-width: 768px) {
+  #titlesLogoDiv {
+    /* compensates for padding that is necessary in other themes but not in teal */
+    padding-top: 3.5rem;
+  }
+}
+
+.headerTitle, .headerInfoTop, .headerInfoBottom {
+  color: #2E3192;
+}
+
+/* negates margin bottom set in main.css (which is necessary in most other themes for .headerTitle) */
+.headerTitle {
+  margin-bottom: 2rem;
+}
+
+/* bumps titles down so they don't run into the navbar */
+.headerImg {
+  margin-top: 4.5rem;
+  margin-bottom: 0.2rem;
+}
+
+div.headerLogo {
+  position: absolute;
+  right: 2rem;
+  top: 4rem;
+}
+
+div.headerInfo > h3 {
+  font-size: 1.3rem;
+  text-align: center;
+}
+
+div.pageTopContainer {
+  position: relative;
+}
+
+
+
+/***** Main Content (e.g. h1-h6, a, text, etc) *****/
+main {
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15) !important;
+}
+
+a:hover {
+  color: #E9AB1C;
+}
+
+.indPageTitle, a {
+  color: #038273;
+}
+
+.pageSubtitle {
+  font-weight: normal;
+}
+
+.subSubtitle {
+  color: #383DB9;
+  font-weight: normal;
+}
+
+.dateTitle {
+  color: #046577;
+}
+
+.customBtn-warm {
+  background-color: rgba(203, 131, 30, 0.4);
+}
+
+.customBtn-cool {
+  background-color: rgba(4, 101, 119, 0.6);
+  color: #FEFDFB;
+}
+
+code {
+  color: #008577;
+}
+
+
+
+/***** Main Content: cards & alerts *****/
+.customCard {
+  border: 1px solid rgba(203, 131, 30, 0.3);
+}
+
+.customCardHeader {
+  /* background-color: rgba(203, 131, 30, 0.4); */
+  background-color: rgba(148, 163, 166, 0.5);
+  color: #038273;
+}
+
+.customAlert-warm {
+  background-color: rgba(203, 131, 30, 0.2);
+  border-color: rgba(203, 131, 30, 0.5);
+}
+
+.customAlert-cool {
+  background-color: #D4E6E9;
+  border-color: #ABCED4;
+}
+
+icon {
+  filter: brightness(0) invert(31%) sepia(25%) saturate(4001%) hue-rotate(145deg) brightness(99%) contrast(101%);
+}
+
+.customCardFooter {
+  background-color: rgba(203, 131, 30, 0.1);
+}

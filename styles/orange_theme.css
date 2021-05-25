@@ -1,0 +1,106 @@
+/* Color theme by Kay McKelly */
+
+
+
+/***** General styling *****/
+body {
+  background-color: #FEFDFB;
+}
+
+
+
+/***** Nav (in /includes/nav.php) *****/
+nav#mainmenu {
+  background-color: #FEFDFB;
+}
+
+
+
+/***** Header (in /includes/nav.php) *****/
+.headerImg {
+  background-image: url("../images/banners/circuit.jpg");
+}
+
+.headerGradient {
+  background: rgba(204, 132, 30, 0.6);
+  background: -webkit-linear-gradient(rgba(204, 132, 30, 0.6), rgba(254, 253, 251, 1));
+  background: -o-linear-gradient(rgba(204, 132, 30, 0.6), rgba(254, 253, 251, 1));
+  background: -moz-linear-gradient(rgba(204, 132, 30, 0.6), rgba(254, 253, 251, 1));
+  background: linear-gradient(rgba(204, 132, 30, 0.6), rgba(254, 253, 251, 1));
+}
+
+.headerTitle {
+  color: #2E3192;
+}
+
+.headerInfoTop {
+  color: #2E3192;
+}
+
+.headerInfoBottom {
+  color: #2E3192;
+}
+
+
+
+/***** Main Content (e.g. h1-h6, a, text, etc) *****/
+.indPageTitle {
+  color: #0F773C;
+}
+
+.dateTitle {
+  color: #CB831E;
+}
+
+/* NOTE: custom button colors typically derived from the two most common colors in a given theme */
+.customBtn-warm {
+  background-color: rgba(203, 131, 30, 0.6);
+}
+
+.customBtn-cool {
+  background-color: rgba(15, 119, 60, 0.4);
+}
+
+code {
+  color: #CB831E;
+}
+
+
+
+/***** Main Content: cards & alerts *****/
+.customCard {
+  border: 1px solid rgba(203, 131, 30, 0.3);
+}
+
+.customCardHeader {
+  background-color: rgba(203, 131, 30, 0.4);
+  color: #1F2161;
+}
+
+.customAlert-warm {
+  background-color: rgba(255, 203, 13, 0.3);
+  border-color: rgba(255, 203, 13, 0.6);
+}
+
+.customAlert-cool {
+  background-color: rgba(15, 119, 60, 0.2);
+  border-color: rgba(15, 119, 60, 0.5);
+}
+
+.customCardFooter {
+  /* NOTE: typically this is a more transparent version of the card header bg color */
+  background-color: rgba(203, 131, 30, 0.1);
+}
+
+/**** Program specific colors ********/
+
+div.trackMenu a.nav-link {
+   background-color: #f8f8f8 !important;
+}
+div.trackMenu .nav-link.active {
+  background-color: rgba(242, 210, 166, 0.3) !important;
+  color: #0F773C;
+}
+div.sessionList div.session {
+  background-color: rgba(242, 210, 166, 0.3);
+}
