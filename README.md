@@ -6,8 +6,8 @@ with the paper title: Beyond fear go viral: A machine learning study on infodemi
 We have implemented our methods in Keras.
 
 Please note that in order to run the code:
-The path should be speficied correctly based on each local computer
-The model parameters should be speficied differently depend on the grid-search range
+1. The path should be speficied correctly based on each local computer <br>
+2. The model parameters should be speficied differently depend on the grid-search range
 ___
 
 ### Citation
