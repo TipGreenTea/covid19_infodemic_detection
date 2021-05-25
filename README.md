@@ -5,7 +5,9 @@ This is **the sample datasets and the sample code** for InCIT2021: The 6th Inter
 with the paper title: Beyond fear go viral: A machine learning study on infodemic detection during covid-19 pandemic. 
 We have implemented our methods in Keras.
 
-Please note that in order to run the code, the path should be speficied correctly based on each local computer.
+Please note that in order to run the code:
+The path should be speficied correctly based on each local computer
+The model parameters should be speficied differently depend on the grid-search range
 ___
 
 ### Citation
